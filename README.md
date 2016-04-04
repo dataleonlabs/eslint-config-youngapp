@@ -15,21 +15,8 @@ and Angular. It requires `eslint` and `eslint-plugin-angular`.
 
 ### eslint-youngapp/base
 
-Lints ES6+ but does not lint React. Requires `eslint`.
-
-1. `npm install --save-dev eslint-config-airbnb eslint`
-2. add `"extends": "airbnb/base"` to your .eslintrc
-
-### eslint-config-airbnb/legacy
-
-Lints ES5 and below. Only requires `eslint`.
-
-1. `npm install --save-dev eslint-config-airbnb eslint`
-2. add `"extends": "airbnb/legacy"` to your .eslintrc
-
-See [Airbnb's Javascript styleguide](https://github.com/airbnb/javascript) and
-the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
-for more information.
+Lints ES6+. Requires `eslint`.
+Add `"extends": "airbnb/base"` to your .eslintrc
 
 ## Improving this config
 
