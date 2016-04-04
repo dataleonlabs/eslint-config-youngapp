@@ -67,7 +67,7 @@ module.exports = {
     'angular/directive-name': 0,
 
     // require and specify a consistent component name pattern (y120, y121)
-    'angular/file-name': 0,
+    'angular/file-name': 2,
 
     // require and specify a prefix for all filter names
     'angular/filter-name': 0,
