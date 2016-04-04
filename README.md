@@ -5,15 +5,15 @@ Your package ESLint Styles as an extensible shared config. ES6, Node, Angular, I
 
 We export three ESLint configurations for your usage.
 
-### eslint-config-airbnb
+### eslint-youngapp
 
 Our default export contains all of our ESLint rules, including EcmaScript 6+
-and React. It requires `eslint` and `eslint-plugin-react`.
+and Angular. It requires `eslint` and `eslint-plugin-angular`.
 
-1. `npm install --save-dev eslint-config-airbnb eslint-plugin-react eslint`
-2. add `"extends": "airbnb"` to your .eslintrc
+1. `npm install --save-dev eslint-youngapp eslint-plugin-angular eslint`
+2. add `"extends": "youngapp"` to your .eslintrc
 
-### eslint-config-airbnb/base
+### eslint-youngapp/base
 
 Lints ES6+ but does not lint React. Requires `eslint`.
 
