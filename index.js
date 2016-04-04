@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'eslint-youngapp/rules/base'
+    'eslint-config-youngapp/rules/base'
   ].map(require.resolve),
   rules: {}
 };
