@@ -1,22 +1,22 @@
-# eslint-youngapp
+# eslint-config-youngapp
 Your package ESLint Styles as an extensible shared config. ES6, Node, Angular, Inspired of AirBnB JavaScript Guide
 
 ## Usage
 
 We export three ESLint configurations for your usage.
 
-### eslint-youngapp
+### eslint-config-youngapp
 
 Our default export contains all of our ESLint rules, including EcmaScript 6+
 and Angular. It requires `eslint` and `eslint-plugin-angular`.
 
-1. `npm install --save-dev eslint-youngapp eslint-plugin-angular eslint`
+1. `npm install --save-dev eslint-config-youngapp eslint-plugin-angular eslint`
 2. add `"extends": "youngapp"` to your .eslintrc
 
-### eslint-youngapp/base
+### eslint-youngapp/node
 
 Lints ES6+. Requires `eslint`.
-Add `"extends": "airbnb/base"` to your .eslintrc
+Add `"extends": "youngapp/node"` to your .eslintrc
 
 ## Improving this config
 

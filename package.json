@@ -1,5 +1,5 @@
 {
-  "name": "eslint-youngapp",
+  "name": "eslint-config-youngapp",
   "version": "1.0.0",
   "keywords": [
     "eslint",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/youngapp/eslint-youngapp.git"
+    "url": "git+https://github.com/youngapp/eslint-config-youngapp.git"
   },
   "author": "Gérard TOKO",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/youngapp/eslint-youngapp/issues"
+    "url": "https://github.com/youngapp/eslint-config-youngapp/issues"
   },
-  "homepage": "https://github.com/youngapp/eslint-youngapp#readme",
+  "homepage": "https://github.com/youngapp/eslint-config-youngapp#readme",
   "dependencies": {
     "eslint": "^2.6.0",
     "eslint-plugin-angular": "^1.0.0"
