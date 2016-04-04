@@ -1,0 +1,31 @@
+{
+  "name": "eslint-youngapp",
+  "version": "1.0.0",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "youngapp",
+    "javascript",
+    "styleguide"
+  ],
+  "description": "Your package ESLint Styles as an extensible shared config. ES6, Node, Angular, Inspired of AirBnB JavaScript Guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngapp/eslint-youngapp.git"
+  },
+  "author": "Gérard TOKO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngapp/eslint-youngapp/issues"
+  },
+  "homepage": "https://github.com/youngapp/eslint-youngapp#readme",
+  "dependencies": {
+    "eslint": "^2.6.0",
+    "eslint-plugin-angular": "^1.0.0"
+  }
+}
