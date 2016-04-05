@@ -156,6 +156,4 @@ module.exports = {
     // use $window instead of window (y180)
     'angular/window-service': 2,
   }
-
-
 };
