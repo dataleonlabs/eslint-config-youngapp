@@ -15,7 +15,7 @@ module.exports = {
     // enforces consistent naming when capturing the current execution context
     'consistent-this': 0,
     // enforce newline at the end of file, with no multiple empty lines
-    'eol-last': 2,
+    'eol-last': 0,
     // require function expressions to have a name
     'func-names': 1,
     // enforces use of function declarations or expressions
@@ -58,7 +58,7 @@ module.exports = {
     // disallow the omission of parentheses when invoking a constructor with no arguments
     'new-parens': 0,
     // allow/disallow an empty newline after var statement
-    'newline-after-var': 2,
+    'newline-after-var': 0,
     // http://eslint.org/docs/rules/newline-before-return
     'newline-before-return': 0,
 

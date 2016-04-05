@@ -52,7 +52,7 @@ module.exports = {
     // disallow to use this/super before super() calling in constructors.
     'no-this-before-super': 2,
     // require let or const instead of var
-    'no-var': 0,
+    'no-var': 2,
     // disallow unnecessary constructor
     // http://eslint.org/docs/rules/no-useless-constructor
     'no-useless-constructor': 2,

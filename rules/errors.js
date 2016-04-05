@@ -1,7 +1,7 @@
 module.exports = {
   'rules': {
     // disallow assignment in conditional expressions
-    'no-cond-assign': [2, 'always'],
+    'no-cond-assign': [2, 'except-parens'],
     // disallow use of console
     'no-console': 0,
     // disallow use of constant expressions in conditions
