@@ -14,9 +14,13 @@ and Angular. It requires `eslint` and `eslint-plugin-angular`.
 2. add `"extends": "youngapp"` to your .eslintrc
 
 ### eslint-youngapp/node
-
-Lints ES6+. Requires `eslint`.
 Add `"extends": "youngapp/node"` to your .eslintrc
+
+### eslint-youngapp/angular
+Add `"extends": "youngapp/angular"` to your .eslintrc
+
+### eslint-youngapp/front
+Add `"extends": "youngapp/front"` to your .eslintrc
 
 ## Improving this config
 
