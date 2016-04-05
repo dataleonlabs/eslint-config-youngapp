@@ -1,13 +1,16 @@
 module.exports = {
+ "env": {
+    "browser": false,
+    "node": true,
+    "es6": true
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
   extends: [
+    'eslint-config-youngapp',
     'eslint-config-youngapp/rules/es6',
-    'eslint-config-youngapp/rules/legacy',
-    'eslint-config-youngapp/rules/best-practices',
-    'eslint-config-youngapp/rules/errors',
-    'eslint-config-youngapp/rules/node',
-    'eslint-config-youngapp/rules/strict',
-    'eslint-config-youngapp/rules/variables',
-    'eslint-config-youngapp/rules/style'
+    'eslint-config-youngapp/rules/node'
   ].map(require.resolve),
   rules: {}
 };
