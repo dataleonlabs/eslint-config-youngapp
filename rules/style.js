@@ -17,7 +17,7 @@ module.exports = {
     // enforce newline at the end of file, with no multiple empty lines
     'eol-last': 0,
     // require function expressions to have a name
-    'func-names': 1,
+    'func-names': 0,
     // enforces use of function declarations or expressions
     'func-style': 0,
     // this option enforces minimum and maximum identifier lengths
@@ -62,6 +62,8 @@ module.exports = {
     // http://eslint.org/docs/rules/newline-before-return
     'newline-before-return': 0,
 
+    'valid-jsdoc': 2,
+
     // enforces new line after each method call in the chain to make it
     // more readable and easy to maintain
     // http://eslint.org/docs/rules/newline-per-chained-call
@@ -69,7 +71,7 @@ module.exports = {
     // disallow use of the Array constructor
     'no-array-constructor': 2,
     // disallow use of the continue statement
-    'no-continue': 2,
+    'no-continue': 0,
     // disallow comments inline after code
     'no-inline-comments': 0,
     // disallow if as the only statement in an else block

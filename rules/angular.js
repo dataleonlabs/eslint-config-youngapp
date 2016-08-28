@@ -16,13 +16,13 @@ module.exports = {
     'angular/component-limit': [2, 3],
 
     // require the use of controllerAs in routes or states (y031)
-    'angular/controller-as-route': 2,
+    'angular/controller-as-route': 0,
 
     // require and specify a capture variable for this in controllers (y032)
-    'angular/controller-as-vm': 2,
+    'angular/controller-as-vm': 0,
 
     // disallow assignments to $scope in controllers (y031)
-    'angular/controller-as': 2,
+    'angular/controller-as': 0,
 
     // use $q(function(resolve, reject){}) instead of $q.deferred
     'angular/deferred': 2,
@@ -37,7 +37,7 @@ module.exports = {
     'angular/empty-controller': 2,
 
     // disallow use of controllers (according to the component first pattern)
-    'angular/no-controller': 2,
+    'angular/no-controller': 0,
 
     // disallow the use of inline templates
     'angular/no-inline-template': 2,
@@ -46,7 +46,7 @@ module.exports = {
     'angular/no-run-logic': 0,
 
     // disallow DI of specified services for other angular components ($http for controllers, filters and directives)
-    'angular/no-services': 2,
+    'angular/no-services': 0,
 
     // require $on and $watch deregistration callbacks to be saved in a variable
     'angular/on-watch': 2,
@@ -61,7 +61,7 @@ module.exports = {
     'angular/no-http-callback': 2,
 
     // require and specify a prefix for all controller names (y123, y124)
-    'angular/controller-name': [2,"/Controller$/"],
+    'angular/controller-name': [2,'/Controller$/'],
 
     // require and specify a prefix for all directive names (y073, y126)
     'angular/directive-name': 0,

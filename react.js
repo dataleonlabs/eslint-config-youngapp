@@ -10,7 +10,7 @@ module.exports = {
   extends: [
     'eslint-config-youngapp',
     'eslint-config-youngapp/rules/es6',
-    'eslint-config-youngapp/rules/node'
+    'eslint-config-youngapp/rules/react'
   ].map(require.resolve),
   rules: {}
 };

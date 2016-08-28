@@ -25,7 +25,10 @@
   },
   "homepage": "https://github.com/youngapp/eslint-config-youngapp#readme",
   "dependencies": {
+    "babel-eslint": "^6.1.2",
     "eslint": "^2.6.0",
-    "eslint-plugin-angular": "^1.0.0"
+    "eslint-plugin-angular": "^1.0.0",
+    "eslint-plugin-react": "^6.2.0",
+    "eslint-plugin-require-path-exists": "^1.1.5"
   }
 }

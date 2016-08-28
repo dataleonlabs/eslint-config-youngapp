@@ -9,7 +9,7 @@ module.exports = {
     // disallow control characters in regular expressions
     'no-control-regex': 2,
     // disallow use of debugger
-    'no-debugger': 0,
+    'no-debugger': 2,
     // disallow duplicate arguments in functions
     'no-dupe-args': 2,
     // disallow duplicate keys when creating object literals
@@ -49,7 +49,7 @@ module.exports = {
     // disallow comparisons with the value NaN
     'use-isnan': 2,
     // ensure JSDoc comments are valid
-    'valid-jsdoc': 0,
+    'valid-jsdoc': 2,
     // ensure that the results of typeof are compared against a valid string
     'valid-typeof': 2,
     // Avoid code that looks like two expressions but is actually one

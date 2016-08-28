@@ -8,6 +8,9 @@ module.exports = {
     'eslint-config-youngapp/rules/style'
   ].map(require.resolve),
   rules: {},
+  plugins: [
+    'require-path-exists'
+  ],
   env: {
     browser: true,
     node: true

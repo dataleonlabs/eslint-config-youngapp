@@ -7,8 +7,8 @@ module.exports = {
     'sourceType': 'module',
     'ecmaFeatures': {
       'jsx': true,
-      'generators': false,
-      'objectLiteralDuplicateProperties': false
+      'generators': true,
+      'objectLiteralDuplicateProperties': true
     }
   },
   'rules': {
@@ -23,9 +23,9 @@ module.exports = {
     // require trailing commas in multiline object literals
     'comma-dangle': [0, 'always-multiline'],
     // verify super() callings in constructors
-    'constructor-super': 0,
+    'constructor-super': 2,
     // enforce the spacing around the * in generator functions
-    'generator-star-spacing': 0,
+    'generator-star-spacing': ["error", {"before": true, "after": false}],
     // disallow modifying variables of class declarations
     'no-class-assign': 2,
     // disallow arrow functions where they could be confused with comparisons

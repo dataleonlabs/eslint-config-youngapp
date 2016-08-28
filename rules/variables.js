@@ -5,7 +5,7 @@ module.exports = {
     // disallow the catch clause parameter name being the same as a variable in the outer scope
     'no-catch-shadow': 2,
     // disallow deletion of variables
-    'no-delete-var': 2,
+    'no-delete-var': 0,
     // disallow var and named functions in global scope
     // http://eslint.org/docs/rules/no-implicit-globals
     'no-implicit-globals': 2,
