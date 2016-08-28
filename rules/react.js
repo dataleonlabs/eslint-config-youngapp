@@ -148,7 +148,7 @@ module.exports = {
 
     // Prevent using string references
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md
-    'react/no-string-refs': 'error',
+    'react/no-string-refs': 'off',
 
     // Prevent usage of unknown DOM property
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md
@@ -186,18 +186,53 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
     'react/jsx-space-before-closing': ['error', 'always'],
 
+    "arrow-body-style": 0,
+
+    "no-undefined": 0,
+
+    "consistent-return": 0,
+
+    // enforce return after a callback
+    'callback-return': 0,
+
+    // enforces error handling in callbacks (node environment)
+    'handle-callback-err': 0,
+
+    // disallow process.exit()
+    'no-process-exit': 2,
+
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
-    'react/sort-comp': ['error', {
+    "react/sort-comp": [2, {
       order: [
         'static-methods',
         'lifecycle',
-        '/^on.+$/',
-        '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
         'everything-else',
-        '/^render.+$/',
         'render'
       ],
+      groups: {
+        lifecycle: [
+          'displayName',
+          'propTypes',
+          'contextTypes',
+          'childContextTypes',
+          'mixins',
+          'statics',
+          'defaultProps',
+          'constructor',
+          'getDefaultProps',
+          'getInitialState',
+          'state',
+          'getChildContext',
+          'componentWillMount',
+          'componentDidMount',
+          'componentWillReceiveProps',
+          'shouldComponentUpdate',
+          'componentWillUpdate',
+          'componentDidUpdate',
+          'componentWillUnmount'
+        ]
+      }
     }],
 
     // Prevent missing parentheses around multilines JSX
