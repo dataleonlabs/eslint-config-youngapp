@@ -16,6 +16,9 @@ and Angular. It requires `eslint` and `eslint-plugin-angular`.
 ### eslint-youngapp/node
 Add `"extends": "youngapp/node"` to your .eslintrc
 
+### eslint-youngapp/react
+Add `"extends": "youngapp/react"` to your .eslintrc
+
 ### eslint-youngapp/angular
 Add `"extends": "youngapp/angular"` to your .eslintrc
 
