@@ -170,10 +170,9 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
     'react/react-in-jsx-scope': 'error',
 
-    // Restrict file extensions that may be required
+    // Remove restrict file extensions that may be required
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-extension.md
-    // Deprecated
-    //'react/require-extension': ['error', { extensions: ['.jsx', '.js'] }],
+    'react/require-extension': 'off',
 
     // Require render() methods to return something
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
