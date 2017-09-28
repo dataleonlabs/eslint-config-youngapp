@@ -315,6 +315,9 @@ module.exports = {
     }]
   },
 
+  // disallow the use of console
+  'no-console': ['error', { allow: ['warn', 'error'] }]
+
   settings: {
     'import/resolver': {
       node: {

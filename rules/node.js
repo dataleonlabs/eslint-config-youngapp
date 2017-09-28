@@ -39,6 +39,10 @@ module.exports = {
         '.es6',
         '.coffe'
       ],
-    }]
+    }],
+
+    // disallow the use of console
+    'no-console': ['error', { allow: ['warn', 'error'] }]
+
   }
 };
