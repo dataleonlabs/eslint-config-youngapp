@@ -160,11 +160,11 @@ module.exports = {
 
     // Require stateless functions when not using lifecycle methods, setState or ref
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
-    'react/prefer-stateless-function': 'error',
+    'react/prefer-stateless-function': 0,
 
     // Prevent missing props validation in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
-    'react/prop-types': ['error', { ignore: [], customValidators: [] }],
+    'react/prop-types': 0,
 
     // Prevent missing React when using JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
@@ -316,7 +316,12 @@ module.exports = {
   },
 
   // disallow the use of console
-  'no-console': ['error', { allow: ['warn', 'error'] }]
+  'no-console': ['error', { allow: ['warn', 'error'] }],
+
+  // Prevent unused style
+  "react-native/no-unused-styles": 2,
+
+  "react-native/split-platform-components": 2,
 
   settings: {
     'import/resolver': {
